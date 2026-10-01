@@ -25,7 +25,6 @@ void main() {
         System.out.println("Ответа нет дельта равно 0 ");
         scanner.close();
     } else {
-
         System.out.println("Ответ: Х = " + findX(c, e, b, f, delta) + " Y = " + findY(a, f, c, d, delta));
         scanner.close();
     }
